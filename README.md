@@ -1,10 +1,10 @@
-_This is an assignment to the class [Programmieren 3](https://hsro-inf-prg3.github.io) at the [University of Applied Sciences Rosenheim](http://www.th-rosenheim.de)._
+_This is an assignment to the class [Advanced Programming](https://hsro-inf-fpk.github.io) at the [University of Applied Sciences Rosenheim](http://www.th-rosenheim.de)._
 
 # Assignment 4: Generics
 
 ![Travis CI](https://travis-ci.org/hsro-inf-prg3/04-generics.svg?branch=master)
 
-In this assignment we want to improve the previously implemented `SimpleListImpl` of [Assignment 2](https://github.com/hsro-inf-prg3/02-classes-interfaces).
+In this assignment we want to improve the previously implemented `SimpleListImpl` of [Assignment 2](https://github.com/hsro-inf-fpk/02-classes-interfaces).
 Back then, `SimpleListImpl` was implemented to store references of type `Object`, which in turn required a type cast on retrieval:
 
 ```java
