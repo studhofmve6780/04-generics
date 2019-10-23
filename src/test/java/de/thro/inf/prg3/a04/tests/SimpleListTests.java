@@ -52,7 +52,7 @@ public class SimpleListTests {
 		logger.info("Testing the filter possibilities by filtering for all elements greater 2");
 		SimpleList result = testList.filter(new SimpleFilter() {
 			@Override
-			public boolean include(Object item) {
+			public boolean include(T item) {
 				int current = (int)item;
 				return current > 2;
 			}
